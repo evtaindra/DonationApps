@@ -6,6 +6,7 @@ import Button from '../../components/Button/Button';
 
 import globalStyle from '../../assets/styles/globalStyle';
 import Tab from '../../components/Tab/Tab';
+import Badge from '../../components/Badge/Badge';
 //import style from './style';
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         <Header title={'Mr Dojo'} type={1} />
         <Tab title={'Highlight'} />
         <Tab title={'Highlight'} isInactive={true} />
+        <Badge title={'Environment'} />
         {/* <Button title={'Donasi'} />
         <Button title={'Donasi lagi'} isDisabled={true} /> */}
       </View>
